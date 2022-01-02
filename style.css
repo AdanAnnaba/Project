@@ -1,0 +1,45 @@
+body{
+    margin: 20px 20px 20px 20px;
+    background-color: aquamarine;
+    justify-content: center;
+
+}
+p{
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+}
+.box{
+    height: 200px;
+    width: 300px;
+    border: 2px solid yellow;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 15px;
+    text-align: justify;
+}
+h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+input{
+    justify-content: center;
+}
+div{
+    height: 100px;
+    width: 100px;
+    animation-name: example;
+    animation-duration: 5s;
+    border:2px solid green;
+    background-color: black;
+    border-radius: 50%;
+    margin: 5px 10px 15px 20px;
+}
+
+
+@keyframes example {
+    0% {background-color:red;}
+    25% {background-color: yellow;}
+    50% {background-color: blueviolet;}
+    100% {background-color: crimson;}
+} 
