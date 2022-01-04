@@ -4,15 +4,15 @@ h{
 
 section{
     display: flex;
-    
 }
 .button{
     text-decoration: none;
     padding: 10px 40px;
     background-image: linear-gradient(orange tomato);
+ 
 }
 .part1{
-    width: 50%;
+    width: 25%;
     margin: 30px;
     padding: 25px;
 }
