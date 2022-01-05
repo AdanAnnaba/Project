@@ -5,7 +5,7 @@ h{
     font-family: 'Merriweather', serif;
 }
 
-section{
+.sec1{
     display: flex;
     height: 200px;
     background-image: url(top-banner.png);
@@ -25,4 +25,28 @@ section{
 }
 .part1 img{
     width: 75%;
+}
+.button2{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 5px;
+    color: antiquewhite;
+}
+.part2{
+    width: 50%;
+    margin: 30px;
+    padding: 25px;
+}
+.part2 img{
+    width: 75%;
+}
+.sec2{
+    display: flex;
+    height: 200px;
+    background-repeat: no-repeat;
+    margin-top: 400px;
+}
+p{
+    font-size: 20px;
 }
